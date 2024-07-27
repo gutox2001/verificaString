@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificaString</title>
+</head>
+
+<body>
+    <header>
+        <h1>Verifica String</h1>
+        <a href="#with-regex">String by regex</a>
+        <a href="#default">E-mail</a>
+    </header>
+    <main>
+        <div class="principal-div">
+            <div id="default">
+                <h2>Verificar se a string é um e-mail</h2>
+                <form action="" method="">
+                    <label for="input-string-default">Digite uma string:</label>
+                    <input type="text" placeholder="email10@teste.com.br" name="string" id="input-string-default">
+                </form>
+                <section>
+                    <h2>Resultado:</h2>
+                    <p id="result-default"></p>
+                </section>
+            </div>
+            <div id="with-regex">
+                <h2>Verificar string com base em um regex</h2>
+                <form action="" method="">
+                    <label for="input-regex">Digite seu Regex:</label>
+                    <input type="text" placeholder="email10@teste.com.br" name="string" id="input-regex">
+                    <label for="input-string-regex">Digite a string:</label>
+                    <input type="text" placeholder="teste123*" name="string" id="input-string-regex">
+                </form>
+                <section>
+                    <h2>Resultado:</h2>
+                    <p id="result-regex"></p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por:
+            <a href="https://www.linkedin.com/in/aroldo-augusto-cdc/">Aroldo Augusto</a>
+        </p>
+    </footer>
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

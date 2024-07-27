@@ -1,0 +1,28 @@
+{
+  "name": "verificastring",
+  "version": "1.0.0",
+  "description": "Sistema de verificação de String com base em definições do Usuário",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start:prod": "webpack --mode production",
+    "start:dev": "webpack --mode development -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gutox2001/verificaString.git"
+  },
+  "keywords": [],
+  "author": "Aroldo Augusto Barbosa Simões",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gutox2001/verificaString/issues"
+  },
+  "homepage": "https://github.com/gutox2001/verificaString#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
